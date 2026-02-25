@@ -1,4 +1,4 @@
-# Karina Vilela - Clínica Estética
+# Clínica Estética
 
 Website profissional para clínica de estética avançada, desenvolvido com tecnologias modernas e design sofisticado.
 
