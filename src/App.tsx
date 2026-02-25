@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
+import ScrollToTop from "./components/ScrollToTop";
 import SplashScreen from "./components/SplashScreen";
 import Index from "./pages/Index";
 import Procedimentos from "./pages/Procedimentos";
@@ -32,6 +33,7 @@ const App = () => {
           onNearComplete={() => setStartVideo(true)}
         />
         <HashRouter>
+          <ScrollToTop />
           <Layout>
             <Routes>
               <Route
