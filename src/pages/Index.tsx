@@ -49,7 +49,7 @@ const Index = ({ isLoading, startVideo }: { isLoading?: boolean; startVideo?: bo
           src="/hero-video.mp4"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/60 via-foreground/30 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 h-[180px] bg-gradient-to-b from-transparent via-background/40 to-background pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 h-[180px] bg-gradient-to-b from-transparent via-background/20 to-background pointer-events-none" />
         <div className="relative z-10 section-container">
           <div className="max-w-2xl">
             <p className="text-label text-primary-foreground/70 mb-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
