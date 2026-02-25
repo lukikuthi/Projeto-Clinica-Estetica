@@ -49,15 +49,15 @@ const Footer = () => {
             <ul className="space-y-3 text-sm opacity-70">
               <li className="flex items-center gap-2"><MapPin size={14} /> Rua das Flores, 123 — Centro, São Paulo - SP</li>
               <li className="flex items-center gap-2"><Phone size={14} /> (11) 96998-7340</li>
-              <li className="flex items-center gap-2"><Mail size={14} /> contato@karinavilela.com.br</li>
-              <li className="flex items-center gap-2"><Instagram size={14} /> @karinavilela.estetica</li>
+              <li className="flex items-center gap-2"><Mail size={14} /> lucaskikuthi@gmail.com</li>
+              <li className="flex items-center gap-2"><Instagram size={14} /> @lukikuthi.dev</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs opacity-50">
-          <p>© {new Date().getFullYear()} Karina Vilela Clínica Estética. Todos os direitos reservados.</p>
-          <p>Os resultados podem variar de pessoa para pessoa.</p>
+          <p>© {new Date().getFullYear()} Lucas Kikuthi. Todos os direitos reservados.</p>
+          <p>Projeto fictício para portfólio.</p>
         </div>
       </div>
     </footer>

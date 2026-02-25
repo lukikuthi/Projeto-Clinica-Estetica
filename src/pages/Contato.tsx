@@ -100,7 +100,7 @@ const Contato = () => {
                     <Instagram size={18} className="text-accent flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-medium">Instagram</p>
-                      <p className="text-muted-foreground">@karinavilela.estetica</p>
+                      <p className="text-muted-foreground">@lukikuthi.dev</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

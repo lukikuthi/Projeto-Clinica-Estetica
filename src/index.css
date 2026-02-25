@@ -121,9 +121,9 @@
 
   .glass-button-whatsapp {
     @apply glass-button flex items-center gap-2;
-    background: hsla(35, 28%, 48%, 0.15);
-    border-color: hsla(35, 28%, 48%, 0.3);
-    color: hsl(35, 28%, 35%);
+    background: hsla(35, 29%, 63%, 0.15);
+    border-color: hsla(36, 23%, 62%, 0.3);
+    color: hsl(0, 0%, 100%);
   }
 
   .glass-button-whatsapp:hover {
