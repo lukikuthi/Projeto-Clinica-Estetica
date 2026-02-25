@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { Syringe, Sparkles, Gem, Layers, Zap, ShieldCheck, UserCheck, HeartPulse, Award, Star, ArrowRight, MessageCircle } from "lucide-react";
+import heroVideo from "@/assets/hero-video.mp4";
 import AnimatedSection from "@/components/AnimatedSection";
 import GlowCard from "@/components/GlowCard";
 
@@ -46,7 +47,7 @@ const Index = ({ isLoading, startVideo }: { isLoading?: boolean; startVideo?: bo
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          src="/hero-video.mp4"
+          src={heroVideo}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/60 via-foreground/30 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 h-[180px] bg-gradient-to-b from-transparent via-background/20 to-background pointer-events-none" />

@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import SplashScreen from "./components/SplashScreen";
 import Index from "./pages/Index";
@@ -31,12 +31,20 @@ const App = () => {
           onComplete={() => setShowSplash(false)}
           onNearComplete={() => setStartVideo(true)}
         />
-        <BrowserRouter>
+        <HashRouter>
           <Layout>
             <Routes>
-              <Route path="/" element={<Index isLoading={showSplash} startVideo={startVideo} />} />
+              <Route
+                path="/"
+                element={
+                  <Index isLoading={showSplash} startVideo={startVideo} />
+                }
+              />
               <Route path="/procedimentos" element={<Procedimentos />} />
-              <Route path="/procedimentos/:slug" element={<ProcedimentoDetalhe />} />
+              <Route
+                path="/procedimentos/:slug"
+                element={<ProcedimentoDetalhe />}
+              />
               <Route path="/sobre" element={<Sobre />} />
               <Route path="/antes-depois" element={<AntesDepois />} />
               <Route path="/depoimentos" element={<Depoimentos />} />
@@ -45,7 +53,7 @@ const App = () => {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
-        </BrowserRouter>
+        </HashRouter>
       </TooltipProvider>
     </QueryClientProvider>
   );
