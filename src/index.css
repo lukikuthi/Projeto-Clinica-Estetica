@@ -196,3 +196,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* IE antigo */
+body {
+  -ms-overflow-style: none;
+}
